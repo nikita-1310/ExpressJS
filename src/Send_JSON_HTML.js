@@ -11,6 +11,7 @@ app.get('/about',(req,res)=>{
         name:"Nikita Agarwal"
     })
 })
+
 app.get('/data',(req,res)=>{
     res.send([{
         id:1,
