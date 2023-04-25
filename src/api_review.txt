@@ -1,0 +1,13 @@
+API = Application Programmable Interface
+
+get     =>  read
+post    =>  create
+put     =>  update
+delete  =>  delete
+
+get(route, callback)
+get('/',(req, res))
+
+req represent request of HTTP and it has propeties for request query string, parameter, body, headers
+
+res represent response of HTTP that express send wehn it receve http request
