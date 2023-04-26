@@ -14,7 +14,6 @@ app.get('/contact', (req,res)=>{
 app.get('/temp', (req,res)=>{
     res.send("Temperature page")
 })
-
 app.listen(8000,()=>{
     console.log("Server is started")
 })
